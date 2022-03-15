@@ -12,14 +12,18 @@ x1(abs(t) == tt) = 0.5;
 x2 = exp(-(t/sigma).^2);
 
 % FFT
+tic();
 yx1 = fft(x1);
+toc();
 yx2 = fft(x2);
 
 yg1 = fftshift(yx1);
 yg2 = fftshift(yx2);
 
 % DFT
+tic();
 zx1 = dft(x1);
+toc();
 zx2 = dft(x2);
 
 zg1 = fftshift(zx1);

@@ -2,7 +2,7 @@ function main()
 % Initial state
 sigma = 5;
 tt = 2;
-n = 10;
+n = 20;
 dt = 1;
 t_max = dt*(n-1)/2;
 
