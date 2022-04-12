@@ -51,7 +51,7 @@ subplot(2,1,1);
 title('Mean function filtering');
 hold on;
 grid on;
-plot(t, yx, 'r');
+plot(t, uxbase1, 'r');
 plot(t, ux1, 'g');
 legend('Initial signal', 'Filtered');
 
@@ -59,7 +59,7 @@ subplot(2,1,2);
 title('Med function filtering');
 hold on;
 grid on;
-plot(t, yx, 'r');
+plot(t, uxbase2, 'r');
 plot(t, ux2, 'g');
 legend('Initial signal', 'Filtered');
 
